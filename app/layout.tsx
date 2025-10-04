@@ -44,7 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <Script
+        <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-14MTG1R4M2"
           strategy="afterInteractive"
         />
@@ -56,6 +56,7 @@ export default function RootLayout({
             gtag('config', 'G-14MTG1R4M2');
           `}
         </Script>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
