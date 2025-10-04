@@ -56,7 +56,6 @@ export default function EquationCalculator() {
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50">
-      {/* Schema Markup for SEO */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -82,7 +81,6 @@ export default function EquationCalculator() {
         }}
       />
 
-      {/* Hero Section */}
       <div className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
@@ -104,7 +102,6 @@ export default function EquationCalculator() {
         </div>
       </div>
 
-      {/* Calculator Section */}
       <div className="max-w-6xl mx-auto px-4 py-12">
         <div className="bg-white rounded-2xl shadow-xl p-8 mb-12">
           <div className="flex gap-4 mb-8 border-b">
@@ -285,7 +282,6 @@ export default function EquationCalculator() {
           )}
         </div>
 
-        {/* Educational Content - 2000+ words for SEO */}
         <div className="bg-white rounded-2xl shadow-lg p-8 mb-12">
           <article className="prose prose-lg max-w-none">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">
@@ -293,7 +289,7 @@ export default function EquationCalculator() {
             </h2>
 
             <p className="text-gray-700 leading-relaxed mb-6">
-              The equation of a circle is one of the most fundamental concepts in coordinate geometry and analytical mathematics. Whether you're a student learning algebra, an engineer designing circular components, or a programmer creating graphics, understanding how to work with circle equations is essential. This comprehensive guide will teach you everything you need to know about circle equations, from basic concepts to advanced applications.
+              The equation of a circle is one of the most fundamental concepts in coordinate geometry and analytical mathematics. Whether you&apos;re a student learning algebra, an engineer designing circular components, or a programmer creating graphics, understanding how to work with circle equations is essential. This comprehensive guide will teach you everything you need to know about circle equations, from basic concepts to advanced applications.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -305,7 +301,7 @@ export default function EquationCalculator() {
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-6">
-              The most common and useful form of a circle equation is the standard form, which clearly shows the circle's center and radius. However, circles can also be expressed in general form, parametric form, and polar form, each serving different mathematical purposes and applications.
+              The most common and useful form of a circle equation is the standard form, which clearly shows the circle&apos;s center and radius. However, circles can also be expressed in general form, parametric form, and polar form, each serving different mathematical purposes and applications.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">
@@ -321,11 +317,11 @@ export default function EquationCalculator() {
             </div>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              The standard form is the most intuitive way to express a circle equation because it directly reveals the circle's key properties. In this equation, h represents the x-coordinate of the center, k represents the y-coordinate of the center, and r represents the radius. This form makes it incredibly easy to graph a circle or determine its properties at a glance.
+              The standard form is the most intuitive way to express a circle equation because it directly reveals the circle&apos;s key properties. In this equation, h represents the x-coordinate of the center, k represents the y-coordinate of the center, and r represents the radius. This form makes it incredibly easy to graph a circle or determine its properties at a glance.
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-6">
-              For example, the equation (x - 3)² + (y + 2)² = 25 represents a circle with center at (3, -2) and radius 5 (since r² = 25, therefore r = 5). The standard form is particularly useful when you need to quickly identify the center and radius, or when you're sketching the circle on a coordinate plane.
+              For example, the equation (x - 3)² + (y + 2)² = 25 represents a circle with center at (3, -2) and radius 5 (since r² = 25, therefore r = 5). The standard form is particularly useful when you need to quickly identify the center and radius, or when you&apos;re sketching the circle on a coordinate plane.
             </p>
 
             <h3 className="text-xl font-bold text-gray-900 mt-6 mb-3">
@@ -381,7 +377,7 @@ export default function EquationCalculator() {
             </h3>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              The simplest method for finding a circle's equation is when you know the center point (h, k) and the radius r. Simply substitute these values into the standard form equation (x - h)² + (y - k)² = r². For instance, if the center is (4, -3) and radius is 6, the equation becomes (x - 4)² + (y + 3)² = 36.
+              The simplest method for finding a circle&apos;s equation is when you know the center point (h, k) and the radius r. Simply substitute these values into the standard form equation (x - h)² + (y - k)² = r². For instance, if the center is (4, -3) and radius is 6, the equation becomes (x - 4)² + (y + 3)² = 36.
             </p>
 
             <h3 className="text-xl font-bold text-gray-900 mt-6 mb-3">
@@ -389,7 +385,7 @@ export default function EquationCalculator() {
             </h3>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              When given three points on the circle, you can find the equation by using the general form x² + y² + Dx + Ey + F = 0 and creating a system of three equations. Substitute each point's coordinates into the general form, creating three equations with three unknowns (D, E, and F). Solve this system using substitution, elimination, or matrices to find the coefficients.
+              When given three points on the circle, you can find the equation by using the general form x² + y² + Dx + Ey + F = 0 and creating a system of three equations. Substitute each point&apos;s coordinates into the general form, creating three equations with three unknowns (D, E, and F). Solve this system using substitution, elimination, or matrices to find the coefficients.
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-6">
@@ -430,7 +426,7 @@ export default function EquationCalculator() {
             </h2>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              To graph a circle equation, first convert it to standard form if it isn't already. This reveals the center (h, k) and radius r. Plot the center point on the coordinate plane, then use the radius to mark points that are r units away from the center in all directions. The easiest points to plot are r units directly above, below, left, and right of the center.
+              To graph a circle equation, first convert it to standard form if it isn&apos;t already. This reveals the center (h, k) and radius r. Plot the center point on the coordinate plane, then use the radius to mark points that are r units away from the center in all directions. The easiest points to plot are r units directly above, below, left, and right of the center.
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -490,7 +486,7 @@ export default function EquationCalculator() {
             </h3>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              One of the most common mistakes is misinterpreting signs in the standard form. Remember that the equation (x - h)² + (y - k)² = r² has subtraction signs. If you see (x + 3)², the center's x-coordinate is actually -3, not +3. The equation is really (x - (-3))². Always rewrite addition as subtraction of a negative to avoid confusion: (x + 3)² = (x - (-3))².
+              One of the most common mistakes is misinterpreting signs in the standard form. Remember that the equation (x - h)² + (y - k)² = r² has subtraction signs. If you see (x + 3)², the center&apos;s x-coordinate is actually -3, not +3. The equation is really (x - (-3))². Always rewrite addition as subtraction of a negative to avoid confusion: (x + 3)² = (x - (-3))².
             </p>
 
             <h3 className="text-xl font-bold text-gray-900 mt-6 mb-3">
@@ -576,7 +572,7 @@ export default function EquationCalculator() {
 
             <div className="space-y-4">
               <div className="border-l-4 border-emerald-500 pl-4">
-                <p className="font-semibold text-gray-900 mb-2">What's the difference between a circle equation and an ellipse equation?</p>
+                <p className="font-semibold text-gray-900 mb-2">What&apos;s the difference between a circle equation and an ellipse equation?</p>
                 <p className="text-gray-700">A circle equation has equal coefficients for x² and y² terms (both are 1), while an ellipse has different coefficients. In standard form, a circle has one radius value (r), while an ellipse has two different values (semi-major and semi-minor axes).</p>
               </div>
 
@@ -591,7 +587,7 @@ export default function EquationCalculator() {
               </div>
 
               <div className="border-l-4 border-emerald-500 pl-4">
-                <p className="font-semibold text-gray-900 mb-2">What's the equation of a circle tangent to the x-axis?</p>
+                <p className="font-semibold text-gray-900 mb-2">What&apos;s the equation of a circle tangent to the x-axis?</p>
                 <p className="text-gray-700">If a circle is tangent to the x-axis, the distance from its center to the x-axis equals the radius. This means k = r (if tangent from above) or k = -r (if tangent from below). The equation becomes (x - h)² + (y - r)² = r² or (x - h)² + (y + r)² = r².</p>
               </div>
             </div>
@@ -601,20 +597,19 @@ export default function EquationCalculator() {
             </h2>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              Understanding the equation of a circle is fundamental to success in mathematics, science, and engineering. Whether you're working with the standard form (x - h)² + (y - k)² = r², the general form x² + y² + Dx + Ey + F = 0, or parametric and polar forms, each representation offers unique advantages for different applications.
+              Understanding the equation of a circle is fundamental to success in mathematics, science, and engineering. Whether you&apos;re working with the standard form (x - h)² + (y - k)² = r², the general form x² + y² + Dx + Ey + F = 0, or parametric and polar forms, each representation offers unique advantages for different applications.
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              This calculator simplifies the process of working with circle equations by instantly converting between forms, finding centers and radii, and providing step-by-step solutions. By mastering these concepts and using tools like this calculator, you'll be well-equipped to tackle any problem involving circles in coordinate geometry.
+              This calculator simplifies the process of working with circle equations by instantly converting between forms, finding centers and radii, and providing step-by-step solutions. By mastering these concepts and using tools like this calculator, you&apos;ll be well-equipped to tackle any problem involving circles in coordinate geometry.
             </p>
 
             <p className="text-gray-700 leading-relaxed">
-              Whether you're a student preparing for exams, a professional engineer designing circular components, or a programmer implementing graphics algorithms, the equation of a circle remains a powerful and versatile mathematical tool that connects algebra, geometry, and real-world applications.
+              Whether you&apos;re a student preparing for exams, a professional engineer designing circular components, or a programmer implementing graphics algorithms, the equation of a circle remains a powerful and versatile mathematical tool that connects algebra, geometry, and real-world applications.
             </p>
           </article>
         </div>
 
-        {/* Related Calculators Section */}
         <div className="bg-gradient-to-br from-emerald-100 to-teal-100 rounded-2xl p-8 mb-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
             <ArrowRight className="w-6 h-6 text-emerald-600" />
@@ -623,22 +618,19 @@ export default function EquationCalculator() {
           <div className="grid md:grid-cols-3 gap-4">
             
               href="https://circumferenceofacircle.com"
-              className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow"
-            >
+              className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow">
               <h3 className="font-semibold text-gray-900 mb-2">Circumference Calculator</h3>
               <p className="text-sm text-gray-600">Calculate circle circumference using C = 2πr or C = πd</p>
             </a>
             
               href="https://areaofcircle.com"
-              className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow"
-            >
+              className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow">
               <h3 className="font-semibold text-gray-900 mb-2">Area Calculator</h3>
               <p className="text-sm text-gray-600">Find circle area using A = πr² formula</p>
             </a>
             
               href="https://radiusofacircle.com"
-              className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow"
-            >
+              className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow">
               <h3 className="font-semibold text-gray-900 mb-2">Radius Calculator</h3>
               <p className="text-sm text-gray-600">Calculate radius from circumference, area, or diameter</p>
             </a>
@@ -646,7 +638,6 @@ export default function EquationCalculator() {
         </div>
       </div>
 
-      {/* Network Footer */}
       <footer className="bg-gray-900 text-gray-400 py-12">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-8">
