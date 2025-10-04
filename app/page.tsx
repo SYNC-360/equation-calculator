@@ -582,7 +582,7 @@ export default function EquationCalculator() {
 
               <div className="border-l-4 border-emerald-500 pl-4">
                 <p className="font-semibold text-gray-900 mb-2">Can a circle equation have negative radius?</p>
-                <p className="text-gray-700">No, the radius must always be positive. If your calculation yields r² < 0, this indicates there is no real circle satisfying the given conditions. This often occurs when the general form coefficients don't actually represent a valid circle.</p>
+                <p className="text-gray-700">No, the radius must always be positive. If your calculation yields r² &lt; 0, this indicates there is no real circle satisfying the given conditions. This often occurs when the general form coefficients don&apos;t actually represent a valid circle.</p>
               </div>
 
               <div className="border-l-4 border-emerald-500 pl-4">
