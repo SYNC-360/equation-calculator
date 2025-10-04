@@ -618,25 +618,27 @@ export default function EquationCalculator() {
           <div className="grid md:grid-cols-3 gap-4">
             
               href="https://circumferenceofacircle.com"
-              className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow">
+              className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow"
+            >
               <h3 className="font-semibold text-gray-900 mb-2">Circumference Calculator</h3>
               <p className="text-sm text-gray-600">Calculate circle circumference using C = 2πr or C = πd</p>
             </a>
             
               href="https://areaofcircle.com"
-              className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow">
+              className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow"
+            >
               <h3 className="font-semibold text-gray-900 mb-2">Area Calculator</h3>
               <p className="text-sm text-gray-600">Find circle area using A = πr² formula</p>
             </a>
             
               href="https://radiusofacircle.com"
-              className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow">
+              className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow"
+            >
               <h3 className="font-semibold text-gray-900 mb-2">Radius Calculator</h3>
               <p className="text-sm text-gray-600">Calculate radius from circumference, area, or diameter</p>
             </a>
           </div>
         </div>
-      </div>
 
       <footer className="bg-gray-900 text-gray-400 py-12">
         <div className="max-w-7xl mx-auto px-4">
