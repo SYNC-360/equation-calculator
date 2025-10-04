@@ -173,10 +173,12 @@ export default function EquationCalculator() {
                     <p className="text-sm font-medium text-teal-800 mb-2">General Form</p>
                     <p className="text-lg font-mono text-teal-900">{result.general}</p>
                   </div>
-                  <div className="bg-cyan-50 p-4 rounded-lg border-2 border-cyan-200">
-                    <p className="text-sm font-medium text-cyan-800 mb-2">Parametric Form</p>
-                    <p className="text-sm font-mono text-cyan-900">{result.parametric}</p>
-                  </div>
+                  {'parametric' in result && (
+                    <div className="bg-cyan-50 p-4 rounded-lg border-2 border-cyan-200">
+                      <p className="text-sm font-medium text-cyan-800 mb-2">Parametric Form</p>
+                      <p className="text-sm font-mono text-cyan-900">{result.parametric}</p>
+                    </div>
+                  )}
                   <div className="grid grid-cols-2 gap-4">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-xs text-gray-600">Center</p>
